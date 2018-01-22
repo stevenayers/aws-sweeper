@@ -18,11 +18,3 @@ def find_orphan_instances():
 
 def find_geographically_displaced_instances(good_regions, bad_regions):
     return []
-
-
-
-
-
-
-
-

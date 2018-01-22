@@ -19,11 +19,3 @@ def find_orphan_snapshots():
 
 def find_geographically_displaced_snapshots():
     return []
-
-
-
-
-
-
-
-

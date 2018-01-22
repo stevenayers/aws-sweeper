@@ -18,11 +18,3 @@ def find_orphan_volumes():
 
 def find_geographically_displaced_volumes():
     return []
-
-
-
-
-
-
-
-
