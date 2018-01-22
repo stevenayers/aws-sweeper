@@ -4,7 +4,7 @@ import boto3
 
 
 def argument_handler():
-    description = "Searches AWS account for possible unwanted and unused EC2 instances, volumes & snapshots."
+    description = "Searches AWS account for possibly unwanted and unused EC2 instances, volumes & snapshots."
     parser = argparse.ArgumentParser(description=description, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('-a', '--all', action='store_true', help='Sweeps insances, snapshots, and volumes')
     parser.add_argument('-i', '--instances', action='store_true', help='Sweeps volumes')
